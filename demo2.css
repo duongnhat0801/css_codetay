@@ -1,0 +1,268 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+body {
+    background-color: #E5E5E5;
+}
+
+header .wraper, main .wraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+header {
+    background-color: white;
+    border-bottom: 1px solid #E8E9E9;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.h-input-search{
+    width: 422px;
+    border-radius: 0 4px 4px 0;
+    border:none;
+    padding: 0 0 0 15px; 
+    border: 1px solid #E9E9E9;
+    margin-right: 15px;
+}
+
+.h-select-search{
+    border-radius: 4px 0 0 4px;
+    border:none;
+    padding: 0 12px;
+    border: 1px solid #E9E9E9;
+    border-right: none;
+}
+
+.h-search{
+    display: flex;
+    height: 45px;
+
+}
+.h-button-search{
+    background-color:#333333 ;
+    width: 100px;
+    height: 45px;
+    border-radius: 4px;
+    color:#FFFFFF;
+}
+.h-button-action{
+    background-color: #3F51B5;
+    width: 170px;
+    height: 45px;
+    border-radius: 4px;
+    color:#FFFFFF
+}
+
+.hero-section {
+    background-image: url("./Rectangle 253.jpg");
+    border-radius: 8px;
+
+    padding: 100px 0 100px 60px;
+    margin-top: 0px;
+}
+.m-h1{
+    font-size: 48px;
+    color: #FFFFFF;
+}
+.m-h3{
+    font-size: 18px;
+    color: #FFFFFF;
+line-height: 30px;
+}
+.s-button{
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid  #E9E9E9;
+    white-space:nowrap;
+    padding: 12px;
+}
+.b-button{
+    background-color: #F28A4B;
+    color: #FFFFFF;
+}
+.sp-button{
+    border-radius: 50%;
+    background-color: #F28A4B;
+    padding: 5px;
+    
+}
+.img-insert{
+    margin-top: 20px;
+
+}
+.a-text{
+    font-size: 16px;
+    text-decoration: none;
+    color: #333333;
+}
+.img-insert img{
+    border-radius: 4px;
+    padding-bottom: 5px;
+}
+.img-insert a{
+    font-weight: 600;
+}
+.img-insert p{
+    font-size: 14px;
+    color: #999999;
+    padding-top: 5px;
+}
+.xt{
+    padding-top: 10px;
+    color: #3F51B5;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.img-long{
+    padding-top: 35px;
+}
+.ctnb{
+    color: #F28A4B;
+    padding-top: 30px;
+    padding-bottom: 10px;
+   font-size: 18px;
+   font-weight: bold;
+}
+.img-k{
+    width: 100%;
+    border-radius: 8px;
+}
+.ft{
+    background-color: #333333;
+}
+.xx{
+    display: flex;
+
+}
+
+.list-school {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.school-item {
+    flex-basis: 33%;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.c-left{
+    margin-right:  15px;
+}
+.c-right h5{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+}
+.school-item p{
+    font-size: 13px;
+    color:  #666666;
+}
+.c-right span{
+    font-weight: 700;
+}
+.ab img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.ac{
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+}
+.cd{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #444444;
+    margin-top: 20px ;
+    line-height: 30px;
+}
+.cd i{
+    margin-left: 15px;
+    font-size: 20px;
+    margin-top:7px
+}
+.ac h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #777777;
+}
+.ac a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.cd p{
+   color: #666666;
+}
+.cd i{
+    color: #98918E;
+}
